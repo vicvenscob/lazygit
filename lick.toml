@@ -1,0 +1,11 @@
+[package]
+name = "lazygit"
+version = "0.62.2"
+description = "a simple terminal UI for git commands"
+homepage = "https://github.com/vicvenscob/lazygit"
+license = "MIT"
+url = "https://github.com/vicvenscob/lazygit/archive/refs/tags/v0.62.2.tar.gz"
+depends = []
+post_install = "go build -o /usr/local/bin/lazygit"
+
+[package.files]
