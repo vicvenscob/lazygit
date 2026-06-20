@@ -6,6 +6,6 @@ homepage = "https://github.com/vicvenscob/lazygit"
 license = "MIT"
 url = "https://github.com/vicvenscob/lazygit/archive/refs/heads/master.tar.gz"
 depends = []
-post_install = "go build -o /usr/local/bin/lazygit"
+post_install = "go mod download && go build -o /usr/local/bin/lazygit github.com/jesseduffield/lazygit"
 
 [package.files]
