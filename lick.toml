@@ -5,7 +5,7 @@ description = "a simple terminal UI for git commands"
 homepage = "https://github.com/vicvenscob/lazygit"
 license = "MIT"
 url = "https://github.com/vicvenscob/lazygit/archive/refs/heads/master.tar.gz"
-depends = ["go"]
+depends = []
 post_install = "go mod download && go build -o /usr/local/bin/lazygit github.com/jesseduffield/lazygit"
 
 [package.files]
